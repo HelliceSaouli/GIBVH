@@ -1,0 +1,4 @@
+This will be an upgraded version of the old vCamera classe i wrote back than
+it will use the glm data structure and some transform functions there to create 
+Camera matrices and all othere stuff to control the vertual camera that from it
+we see the scene

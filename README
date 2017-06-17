@@ -1,0 +1,5 @@
+an Implementation of a GPU accelerated volume carving technique, that aims to estimate and render on the ﬂy all visible parts of a visual hull from a novel viewpoint.Based on [1]
+
+[1] A.Saouli M.babahenini High Performance Volumetric Modeling from Silhouette: GPU-Image-Based Visual Hull  13th ACS/IEEE International Conference on Computer Systems and Applications AICCSA 2016.
+
+results : https://www.youtube.com/watch?v=BmOtiautEMA

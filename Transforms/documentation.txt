@@ -1,0 +1,4 @@
+ A transform is an operation that takes entities such as points, vectors, or
+ colors and converts them in some way. For the computer graphics practitioner,
+ it is extremely important to master transforms. With them, you can position,
+ reshape, and animate objects

@@ -1,0 +1,21 @@
+/*******************************************************************
+* Autor : saouli AbdelHak                                          *
+* Day :   10/07/2015                                               *
+*                                                                  *
+* Links :                                                          * 
+http://www.cs.virginia.edu/~mwb7w/cuda_support/pinned_tradeoff.html*
+********************************************************************/
+
+
+
+As we all know the first step in space carving algortihm is exctracting the silhouette information from images
+in this case our entry is Data set of images and not live stream video from Camera.
+
+we are going to do a simple image processing in the fly on cuda and extract the silhouette information send it back to cpu
+
+after every imaged processed it will be merged in to one single array and it will be send to gpu and stay there
+
+
+using pinned memory to alocate images in host is slower coz the amont of data per image is to small
+and when i use pinned memory to store all data we can see the throwput is at max and the timing in
+copy data is decreased for more information check the link(1)

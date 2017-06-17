@@ -1,0 +1,6 @@
+this where most of the work will done
+
+we will use pixel buffer so we can communicate daynamicly betewen CUDA and OpenGL
+our algorim volume ray casting will out put pixels this pixel are gonna be stored in 
+cuda resorce wich is maped to an Opengl pixe buffer object this PBO will unpacked into
+a texture object finally OpenGL will draw this texture to a quard and display it us fast as it could

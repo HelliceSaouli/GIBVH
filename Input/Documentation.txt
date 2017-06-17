@@ -1,0 +1,3 @@
+this classe will take care of the keybored and the mouse controll
+we will use it to only control camera postion as like in FPS game
+where here u can fly around the scene

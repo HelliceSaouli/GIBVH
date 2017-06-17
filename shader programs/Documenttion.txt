@@ -1,0 +1,6 @@
+this shaders are simpli drawing texture to a plane
+i should add some anti-alisiaing to get better image
+Types : 
+1- Super-Sampled Anti-Aliasing (SSAA)
+2- Multi-Sampled Anti-Aliasing (MSAA)
+3- Coverage Sample Anti-Aliasing (CSAA)

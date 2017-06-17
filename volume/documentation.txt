@@ -1,0 +1,7 @@
+this the main dish  this classe will contain my data volume
+the volume it will be saved on the GPU, this class will try to be user friendly where 
+it gives you why some way to deal with GPU volume stuff and an object of this class will be passed as
+parameter to render fontion some where in the program
+
+if we use in texture cudaFilterModePoint will take the exact closest point and no interpolation thus we have to agumment the number
+of voxels
